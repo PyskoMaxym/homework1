@@ -37,8 +37,10 @@ font-weight: 500;
 .navigation:focus{
     color: #404bbf;
 }
-
-.address {
+.address{
+    font-style: normal;
+}
+.link-address {
     font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-style: normal;
@@ -47,7 +49,12 @@ font-weight: 500;
         letter-spacing: 0.02em;
         color: #434455;
 }
-
+.link-address:hover{
+color: #404bbf;
+}
+.link-address:focus{
+color: #404bbf;
+}
 .section-one {
     background-color: #2e2f42;
     width: 1440px;
@@ -99,6 +106,18 @@ h3{
         color: #2e2f42;
         
 }
+.section-three{
+    background-color: #F4F4FD
+}
+.section-three-title{
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+        font-size: 36px;
+        line-height: 1.11111;
+        letter-spacing: 0.02em;
+        text-align: center;
+        color: #2e2f42;
+}
 .section-four{
     background-color: #F4F4FD
 }
@@ -110,6 +129,8 @@ font-weight: 700;
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
+    text-transform: capitalize;
+    
 }
 .footer {
     background: #2e2f42;
