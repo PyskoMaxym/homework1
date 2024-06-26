@@ -1,0 +1,85 @@
+body {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: #434455;
+}
+
+.logo {
+font-family: "Raleway", sans-serif;
+font-weight: 700;
+    font-size: 18px;
+    line-height: 1.16667;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
+}
+.logo-studio-top {
+    color: #2e2f42;
+}
+.logo-studio-bottom {
+    color: #f4f4fd;
+}
+.navigation {
+    font-family: "Roboto", sans-serif;
+font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+   
+}
+
+.address {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: #434455;
+}
+
+.section-1 {
+    background-color: #2e2f42;
+    width: 1440px;
+    font-family: "Roboto", sans-serif;
+        height: 600px;
+        font-weight: 700;
+            font-size: 56px;
+            line-height: 1.07143;
+            letter-spacing: 0.02em;
+            text-align: center;
+            color: #fff;
+}
+.info {
+font-family: "Roboto", sans-serif;
+font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+h3{
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+        font-size: 20px;
+        line-height: 1.2;
+        letter-spacing: 0.02em;
+        color: #2e2f42;
+        
+}
+.footer {
+    background: #2e2f42;
+    width: 1440px;
+        height: 312px;
+}
+.footer-info {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #f4f4fd;
+}
