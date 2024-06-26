@@ -11,7 +11,7 @@ body {
 font-family: "Raleway", sans-serif;
 font-weight: 700;
     font-size: 18px;
-    line-height: 1.16667;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
@@ -31,27 +31,56 @@ font-weight: 500;
     color: #2e2f42;
    
 }
+.navigation:hover {
+    color: #404bbf;
+}
+.navigation:focus{
+    color: #404bbf;
+}
 
 .address {
     font-family: "Roboto", sans-serif;
     font-weight: 400;
+    font-style: normal;
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
         color: #434455;
 }
 
-.section-1 {
+.section-one {
     background-color: #2e2f42;
     width: 1440px;
+    height: 600px;
+    
+}
+.title {
+font-family: "Roboto", sans-serif;
+   
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #fff;
+    
+}
+
+.button {
+    background-color: #4D5AE5;
     font-family: "Roboto", sans-serif;
-        height: 600px;
-        font-weight: 700;
-            font-size: 56px;
-            line-height: 1.07143;
-            letter-spacing: 0.02em;
-            text-align: center;
-            color: #fff;
+    font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.04em;
+        color: #fff;
+        cursor: pointer;
+}
+.button:hover {
+background-color: #404BBF
+}
+.button:focus {
+background-color: #404BBF
 }
 .info {
 font-family: "Roboto", sans-serif;
@@ -69,6 +98,18 @@ h3{
         letter-spacing: 0.02em;
         color: #2e2f42;
         
+}
+.section-four{
+    background-color: #F4F4FD
+}
+.section-four-title{
+font-family: "Roboto", sans-serif;
+font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #2e2f42;
 }
 .footer {
     background: #2e2f42;
