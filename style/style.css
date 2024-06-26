@@ -40,6 +40,9 @@ font-weight: 500;
 .address{
     font-style: normal;
 }
+.address{
+    font-style: normal;
+}
 .link-address {
     font-family: "Roboto", sans-serif;
     font-weight: 400;
@@ -108,6 +111,9 @@ h3{
 }
 .section-three{
     background-color: #F4F4FD
+}
+.section-three-li{
+    #FFFFFF
 }
 .section-three-title{
     font-family: "Roboto", sans-serif;
