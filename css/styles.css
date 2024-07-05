@@ -1,24 +1,67 @@
+.container {
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1200px;
+}
+html {
+    box-sizing: border-box;
+}
+
 body {
     font-family: "Roboto", sans-serif;
-    font-weight: 400;
+        font-weight: 400;
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
         color: #434455;
-        background-color:#FFFFFF ;
+        background-color: #FFFFFF;
         margin: 0;
+    padding: 0;
 }
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+}
+
+ul {
+    list-style: none;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+
+img {
+    display: block;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
 .container-header {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    width: 1440px;
-    height: 72px;
     border-bottom: 1px solid #e7e9fc;
     background: #fff;
+  
 }
-nav{
+.nav-block{
     display:flex;
+    align-items: center;
+    height: 72px;
 }
 .logo {
 font-family: "Raleway", sans-serif;
@@ -28,12 +71,7 @@ font-weight: 700;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
-    width: 115px;
-    height: 24px;   
-    padding-left: 156px;
-    padding-top: 24px;
-    padding-right: 76px;
-    gap: 0;
+    margin-right: 76px  ;
 }
 
 .logo-studio-top {
@@ -45,10 +83,8 @@ font-weight: 700;
 
 .list-nav{
     display: flex;
-        gap: 40px;
-        list-style: none;
-        margin-top: 24px;
-        margin-right:156px ;
+    gap: 40px;
+
 }
 .navigation {
     font-family: "Roboto", sans-serif;
@@ -67,6 +103,7 @@ font-weight: 500;
 }
 .address{
     font-style: normal;
+    margin-left: auto;
 }
 
 .link-address {
@@ -187,6 +224,9 @@ background-color: #404BBF
         text-transform: capitalize;
         
 }
+.info-block{
+    padding: 32px 16px;
+}
 .section-four{
     background-color: #fff;
     width: 100%;
@@ -213,9 +253,8 @@ font-weight: 700;
 }
 .section-four-li{
     border-bottom: 1px solid #e7e9fc;
-        border-left: 1px solid #e7e9fc;
-        border-right: 1px solid #e7e9fc;
-        padding: 32px 16px;
+    border-left: 1px solid #e7e9fc;
+    border-right: 1px solid #e7e9fc;
        
       
 }
