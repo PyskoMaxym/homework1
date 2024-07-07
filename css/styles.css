@@ -176,8 +176,7 @@ background-color: #404BBF
     padding: 120px 0;
 }
 .visually-hidden{
-    overflow: hidden;
-
+    display: none;
 }
 .list-info{
     display: flex;
@@ -216,7 +215,7 @@ background-color: #404BBF
     display: flex;
     justify-content: center;
     list-style: none;
-   gap: 24px;
+    gap: 24px;
     margin: 0;
 }
 .section-three-li{  
@@ -281,7 +280,8 @@ font-weight: 700;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    gap:24px;
+    column-gap:24px;
+    row-gap: 48px;
     list-style: none;
 }
 .section-four-li{
