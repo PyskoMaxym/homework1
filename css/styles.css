@@ -165,10 +165,10 @@ color: #404bbf;
     color: #fff;
     cursor: pointer;  
 }
-.button:hover {
+.knopka:hover {
 background-color: #404BBF
 }
-.button:focus {
+.knopka:focus {
 background-color: #404BBF
 }
 .section-two{
@@ -177,6 +177,7 @@ background-color: #404BBF
 }
 .visually-hidden{
     display: none;
+
 }
 .list-info{
     display: flex;
@@ -248,7 +249,9 @@ background-color: #404BBF
         color: #434455;
 }
 .info-block{
-    padding: 32px 0;
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+    border-top: none;
 }
 .section-four{
     background-color: #fff;
@@ -276,9 +279,10 @@ font-weight: 700;
     list-style: none;
 }
 .section-four-li{
-    border: 1px solid #e7e9fc  ;   
-      border-top: none;
+    
+      
     width: calc((100% - 2 * 24px) / 3);
+    
 }
 .h-three-section-four{
     font-family: "Roboto", sans-serif;
