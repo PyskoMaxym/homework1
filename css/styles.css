@@ -175,9 +175,7 @@ background-color: #404BBF
     width: 100%;
     padding: 120px 0;
 }
-.visually-hidden{
-    display: none;
-}
+
 .list-info{
     display: flex;
     justify-content: center;
