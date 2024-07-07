@@ -176,7 +176,7 @@ background-color: #404BBF
     padding: 120px 0;
 }
 .visually-hidden{
-    display: none;
+    overflow: hidden;
 
 }
 .list-info{
@@ -248,7 +248,13 @@ background-color: #404BBF
         letter-spacing: 0.02em;
         color: #434455;
 }
-.info-block{
+.info-block-section-three{
+    padding: 32px 0;
+    border: 1px solid #e7e9fc;
+    border-top: none;
+}
+
+.info-block-section-four{
     padding: 32px 16px;
     border: 1px solid #e7e9fc;
     border-top: none;
@@ -279,8 +285,6 @@ font-weight: 700;
     list-style: none;
 }
 .section-four-li{
-    
-      
     width: calc((100% - 2 * 24px) / 3);
     
 }
