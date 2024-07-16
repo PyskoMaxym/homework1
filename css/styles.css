@@ -87,6 +87,8 @@ font-weight: 700;
 
 }
 .navigation {
+    display: inline-block;
+    position: relative;
     padding: 24px 0;
     font-family: "Roboto", sans-serif;
     font-weight: 500;
@@ -96,11 +98,22 @@ font-weight: 700;
     color: #2e2f42;
    
 }
+
 .navigation:hover {
     color: #404bbf;
 }
 .navigation:focus{
     color: #404bbf;
+}
+.navigation.current::after{ 
+    position: absolute; 
+    content: ' ';
+    border-radius: 2px;
+    top:68px;
+    right:0px;
+    width: 48px;
+    height: 4px;
+    background-color: #404bbf;
 }
 .address{
     font-style: normal;
@@ -125,7 +138,12 @@ color: #404bbf;
 .section-one {
     display: flex;
     align-items: center;
-    background-color: #2e2f42;
+    background-image:linear-gradient(to right, rgba(46, 47, 66, 0.7),
+     rgba(46, 47, 66, 0.7)),
+     url(../images/hero-img.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
     width: 100% ;
     padding: 188px 0;
 
@@ -195,6 +213,17 @@ background-color: #404BBF
 .list-li{
     width: calc((100% - 3 * 24px) / 4);
 }
+.svg-frame{
+    border: 1px solid #8e8f99;
+    border-radius: 4px;
+    width: 264px;
+    height: 112px;
+    background: #f4f4fd;
+    margin-bottom: 8px;
+}
+.svg-picture{
+    margin: 24px 102.14px;
+}
 .info {   
     text-align: left;
     font-family: "Roboto", sans-serif;
@@ -205,7 +234,6 @@ background-color: #404BBF
     color: #434455;
 }
 .h-three{
-    text-align: center;
     font-family: "Roboto", sans-serif;
     font-weight: 500;
         font-size: 20px;
@@ -246,6 +274,15 @@ background-color: #404BBF
         text-transform: capitalize;
         
 }
+.h-three-section-three {
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
 .proffesion{
         text-align: center;
         font-family: "Roboto",
@@ -256,8 +293,27 @@ background-color: #404BBF
         letter-spacing: 0.02em;
         color: #434455;
 }
+.list-social{
+    display: flex;
+    gap:24px;
+}
+.social{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #4d5ae5;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    
+}
+
 .info-block-section-three{
-    padding: 32px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:8px;
+    padding: 32px 16px;
     border: 1px solid #e7e9fc;
     border-top: none;
 }
@@ -292,11 +348,20 @@ font-weight: 700;
     column-gap:24px;
     row-gap: 48px;
     list-style: none;
+    
 }
 .section-four-li{
     width: calc((100% - 2 * 24px) / 3);
     
 }
+.info-block-section-four:hover{
+    
+    background-color: #484eb6;
+    cursor: pointer;
+    content: '14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App · Cloud Storage App';
+
+}
+
 .h-three-section-four{
     font-family: "Roboto", sans-serif;
     font-weight: 500;
@@ -306,14 +371,14 @@ font-weight: 700;
     color: #2e2f42;
     margin-bottom: 8px;
 }
+.footer-page {
 
-.footer {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
     background: #2e2f42;
     width: 100%;
     padding: 100px 0;   
+}
+.footer-block{
+    display: flex;
 }
 .footer-logo{
     margin-bottom: 16px;
@@ -327,4 +392,20 @@ font-weight: 700;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #f4f4fd;
+}
+.social-block{
+    margin-left: 120px;
+}
+.social-title{
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: #fff;    
+        margin-bottom: 16px;
+}
+.social-media{
+    display: flex;
+    gap: 16px;
 }
