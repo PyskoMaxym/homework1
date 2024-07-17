@@ -100,7 +100,10 @@ font-weight: 700;
     letter-spacing: 0.02em;
     color: #2e2f42;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-   
+}
+
+.navigation .current{
+    color: #404bbf;
 }
 
 .navigation:hover {
@@ -134,6 +137,7 @@ font-weight: 700;
         line-height: 1.5;
         letter-spacing: 0.02em;
         color: #434455;
+        transition:color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .link-address:hover{
 color: #404bbf;
@@ -222,6 +226,9 @@ background-color: #404BBF
     width: calc((100% - 3 * 24px) / 4);
 }
 .svg-frame{
+    display: flex;
+    align-items: center;
+    justify-content: center;
     border: 1px solid #8e8f99;
     border-radius: 4px;
     width: 264px;
@@ -441,9 +448,6 @@ font-weight: 700;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #f4f4fd;
-}
-.social-block{
-    margin-left: 120px;
 }
 .social-title{
     font-family: "Roboto", sans-serif;
