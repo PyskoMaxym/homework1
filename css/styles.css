@@ -458,9 +458,9 @@ font-weight: 700;
     display: flex;
     gap: 16px;
 }
-.footer-list:hover{
+.social:hover{
     background-color:#31d0aa;
 }
-.footer-list:focus {
+.social:focus {
     background-color: #31d0aa;
 }
