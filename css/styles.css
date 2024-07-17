@@ -416,14 +416,17 @@ font-weight: 700;
     margin-bottom: 8px;
 }
 .footer-page {
-
     background: #2e2f42;
     width: 100%;
     padding: 100px 0;   
+    
 }
 .footer-block{
     display: flex;
     align-items: baseline;
+
+}
+.logo-block{
     margin-right: 120px;
 }
 .footer-logo{
@@ -454,4 +457,10 @@ font-weight: 700;
 .social-media{
     display: flex;
     gap: 16px;
+}
+.footer-list:hover{
+    color:#31d0aa;
+}
+.footer-list:focus {
+    color: #31d0aa;
 }
