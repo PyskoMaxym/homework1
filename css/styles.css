@@ -459,8 +459,8 @@ font-weight: 700;
     gap: 16px;
 }
 .footer-list:hover{
-    color:#31d0aa;
+    background-color:#31d0aa;
 }
 .footer-list:focus {
-    color: #31d0aa;
+    background-color: #31d0aa;
 }
