@@ -423,6 +423,8 @@ font-weight: 700;
 }
 .footer-block{
     display: flex;
+    align-items: baseline;
+    margin-right: 120px;
 }
 .footer-logo{
     margin-bottom: 16px;
