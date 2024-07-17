@@ -335,9 +335,10 @@ background-color: #404BBF
     flex-direction: column;
     align-items: center;
     gap:8px;
-    padding: 32px 16px;
+    padding: 32px 0;
     border: 1px solid #e7e9fc;
     border-top: none;
+    
 }
 
 .info-block-section-four{
@@ -462,9 +463,9 @@ font-weight: 700;
     display: flex;
     gap: 16px;
 }
-.social:hover{
+.social-media .social:hover{
     background-color:#31d0aa;
 }
-.social:focus {
+.social-media .social:focus {
     background-color: #31d0aa;
 }
