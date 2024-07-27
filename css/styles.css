@@ -620,10 +620,12 @@ width: 100%;
 .modal-label{
     font-family: "Roboto", sans-serif;
     font-weight: 400;
-        font-size: 12px;
-        line-height: 1.16667;
-        letter-spacing: 0.04em;
-        color: #8e8f99;
+    font-size: 12px;
+    line-height: 1.16667;
+    letter-spacing: 0.04em;
+    color: #8e8f99;
+    display: block;
+    margin-bottom: 4px;
 }
 .modal-span{
     font-family: "Roboto", sans-serif;
@@ -685,10 +687,10 @@ width: 100%;
 .modal-textarea::placeholder{
     font-family: "Roboto", sans-serif;
     font-weight: 400;
-        font-size: 12px;
-        line-height: 1.16667;
-        letter-spacing: 0.04em;
-        color: rgba(46, 47, 66, 0.4);
+    font-size: 12px;
+    line-height: 1.16667;
+    letter-spacing: 0.04em;
+    color: rgba(46, 47, 66, 0.4);
 }
 
 .modal-send-btn{
@@ -722,6 +724,9 @@ fill: #f4f4fd;
     letter-spacing: 0.04em;
     color: #8e8f99;
 
+}
+.modal-field-checkbox{
+    margin-bottom: 24px;
 }
 
 .fake-checkbox{
