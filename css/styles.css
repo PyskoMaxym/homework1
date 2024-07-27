@@ -692,6 +692,7 @@ width: 100%;
 }
 .modal-field-textarea {
     margin-bottom: 16px;
+    width: 100%;
 }
 .modal-textarea{
     resize: none;
