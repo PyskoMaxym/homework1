@@ -596,7 +596,6 @@ font-weight: 700;
     height: 24px;
     border-radius: 50%;
     padding: 0;
-    
     cursor: pointer;
     background-color:#e7e9fc;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -632,7 +631,7 @@ font-weight: 700;
    margin-bottom: 16px;
 }
 .modal-field{
-margin-bottom: 8px;
+margin-bottom: 16px;
 width: 100%;
 }
 .modal-label{
@@ -757,15 +756,15 @@ border: none;
 
 }
 .modal-field-checkbox{
-    margin-bottom: 16px;
+    margin-bottom: 24px;
 }
 
 .fake-checkbox{
+    display: inline-flex;
     width: 16px;
     height: 16px;
     border-radius: 2px;
     border: 1px solid rgba(46, 47, 66, 0.4);
-    display: inline-flex;
     align-items: center;
     justify-content: center;
     fill: transparent;
