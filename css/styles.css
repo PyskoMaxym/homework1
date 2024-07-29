@@ -343,9 +343,6 @@ background-color: #404BBF
     align-items: center;
     gap:8px;
     padding: 32px 0;
-    border: 1px solid #e7e9fc;
-    border-top: none;
-    
 }
 
 .info-block-section-four{
@@ -729,7 +726,7 @@ width: 100%;
 
 .modal-send-btn{
     display: block;
-    margin-left: 95px;
+    margin: auto;
     border-radius: 4px;
     min-width: 169px;   
     height: 56px;
@@ -775,7 +772,6 @@ border: none;
 .modal-field-checkbox{
     margin-bottom: 24px;
     display: flex;
-    justify-content: center;
     align-items: center;
 }
 
