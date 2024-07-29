@@ -531,7 +531,6 @@ font-weight: 700;
     min-width: 165px;
     height: 40px;
     background: #4d5ae5;
-    margin-left: 24px;
     font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 16px;
@@ -544,6 +543,13 @@ font-weight: 700;
 }
 .icon-subscribe{
     margin-left: 16px;
+}
+
+.footer-btn:hover{
+    background-color: #404BBF;
+}
+.footer-btn:focus {
+    background-color: #404BBF;
 }
 
 .modal-overlay{
@@ -577,14 +583,6 @@ font-weight: 700;
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
     margin-bottom: 8px;
 }
-
-.modal-form{
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-}
-
 
 .modal-close-btn{
     display: flex;
@@ -722,7 +720,11 @@ width: 100%;
     letter-spacing: 0.04em;
     color: rgba(46, 47, 66, 0.4);
 }
-
+.send-btn-block{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .modal-send-btn{
     border-radius: 4px;
     min-width: 169px;   
@@ -745,6 +747,13 @@ background-color:#404bbf;
 fill: #f4f4fd;
 border: none;
 }
+.modal-send-btn:hover{
+    background-color: #404BBF;  
+}
+
+.modal-send-btn:focus {
+    background-color: #404BBF;
+}
 .modal-label-check{
     gap: 8px;
     font-family: "Roboto", sans-serif;
@@ -761,6 +770,9 @@ border: none;
 
 .modal-field-checkbox{
     margin-bottom: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .fake-checkbox{
