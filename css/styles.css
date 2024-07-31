@@ -146,15 +146,7 @@ color: #404bbf;
 color: #404bbf;
 }
 .section-one {
-    display: flex;
-    align-items: center;
-    justify-content: center ;
-    background-image:linear-gradient( rgba(46, 47, 66, 0.7),
-     rgba(46, 47, 66, 0.7)),
-     url(../images/hero-img.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
+    background-color: #2e2f42;
     width: 100%;
     padding: 188px 0;
     max-width: 1440px;  
