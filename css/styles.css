@@ -442,7 +442,7 @@ font-weight: 700;
 .logo-block{
     margin-right: 120px;
 }
-.footer-logo{
+.logo .footer-logo{
     margin-bottom: 16px;
     display: inline-block;
 }
