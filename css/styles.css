@@ -434,10 +434,7 @@ font-weight: 700;
     padding: 100px 0;   
     
 }
-.footer-block{
-    display: flex;
-    align-items: baseline;
-}
+
 .logo-block{
     margin-right: 120px;
 }
