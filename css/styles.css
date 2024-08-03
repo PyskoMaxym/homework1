@@ -1014,7 +1014,7 @@ border: none;
     }
     .footer-form-info{
         width: 100%;
-        max-width: 496px;
+        max-width: 453px;
     }
     .modal{
         padding: 72px 24px 24px 24px;
@@ -1132,11 +1132,11 @@ border: none;
         .form-footer-input{
             width: 264px;
         }
-                .form-footer-label {
-                    margin-left: 80px;
-                }
+        .social-block{
+            margin-right: 80px;
+        }
         .form-footer-p{
-            margin-left: 80px;
+            
             text-align: start;
         }
                 .social-block {
